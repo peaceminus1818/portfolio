@@ -4,17 +4,19 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Chloe Ooi</strong>, currently a game development student pursuing a career as a game programmer.<br/>
+        I'm excited to showcase some of the projects I've been working on.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">games</router-link> using <strong>Unity</strong>
+      , <router-link to="/other-projects">games</router-link> using <strong>Stencyl</strong>.
+      </div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 30px;">You can reach me at <a href="mailto:chloeooi1989@gmail.com">chloeooi1989@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar.png" alt="Avatar of Me" /> 
     </div>
 
     <div style="clear:both"></div>
@@ -25,11 +27,11 @@
 <style scoped>
 .paragraph {
   max-width: 700px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .photo {
-  margin-top: 50px;
+  margin-top: -10px;
   text-align: center;
 }
 
@@ -40,8 +42,8 @@
 
   .photo {
     float: left;
-    padding: 10px;
-    padding-left: 80px;
+    padding: 0px;
+    padding-left: 100px;
   }
 }
 
