@@ -19,22 +19,41 @@
 
 <script lang="ts">
 import Vue from "vue";
+import Prism from "prismjs";
+import "prismjs/themes/prism-okaidia.css"; // Import the theme
+import "prismjs/plugins/line-numbers/prism-line-numbers.css"; // Line numbers plugin CSS
+import "prismjs/plugins/line-numbers/prism-line-numbers"; // Line numbers plugin JS
 
 export default Vue.extend({
   name: "ProjectDetailsOverlay",
   props: {
-    visible: Boolean,
-    color: String,
-    title: String,
-    htmlContent: String,
+    visible: Boolean, // Visibility of the dialog
+    color: String, // Background color for the dialog
+    title: String, // Title of the dialog
+    htmlContent: String, // HTML content (including code) to render
+  },
+  watch: {
+    visible(newValue) {
+      if (newValue) {
+        // Reapply syntax highlighting when the panel/dialog is opened
+        this.$nextTick(() => {
+          Prism.highlightAll();
+        });
+      }
+    },
   },
   methods: {
-    getImage: function(url: string) {
+    getImage: function (url: string) {
       console.log("fetching image " + url);
-    }
-  }
+    },
+  },
+  mounted() {
+    // Initial syntax highlighting when the component is mounted
+    Prism.highlightAll();
+  },
 });
 </script>
+
 
 <style scoped>
 .overlay {
@@ -74,8 +93,8 @@ h1.dialog-title {
 }
 
 .dialog-content {
-  background-color: #fcfcfc;
-  color: #696969;
+  background-color: #494949;
+  color: #ffffff;
 }
 .dialog-close {
   position: absolute;
