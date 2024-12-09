@@ -35,7 +35,7 @@ export default [
         <!--<br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.-->
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/watch?v=OKNxCSHHJ6Q&ab_channel=ChloeOoi" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/OKNxCSHHJ6Q?si=VZBsWY6p273u2Iju" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
@@ -61,9 +61,9 @@ export default [
     </div>
     `, "#ba7b2f"),
 
-    new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
+    new ProjectData("project-3", "HeartBound Cupid", "img/projects/project-3-icon.png", `
     <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
+        <strong>HeartBound Cupid</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
         <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
     </div>
     <div class="paragraph center">
