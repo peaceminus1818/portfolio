@@ -30,11 +30,15 @@ export default [
     </div>
     </div>
     
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Optimistic Chubby Screenshot" />
+        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Optimistic Chubby Screenshot" />
+    </div>
+
     <div class="paragraph">
         <strong>Code Example:</strong>
         <div class="code-container">
-            <pre class="line-numbers"><code class="language-javascript">
-function greet() {
+            <pre class="line-numbers"><code class="language-javascript">function greet() {
     console.log("Hello, world!");
 }
 
@@ -48,10 +52,6 @@ console.log(add(5, 3));
         </div>
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Optimistic Chubby Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Optimistic Chubby Screenshot" />
-    </div>
     `, "#1c1c1c", true, true),
 
     new ProjectData("project-2", "The Grapple Grandpa", "img/projects/project-2-icon.png", `
@@ -113,16 +113,16 @@ console.log(add(5, 3));
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/heartbound/screenshot1.png" alt="HeartBound Cupid Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/heartbound/screenshot2.png" alt="HeartBound Cupid Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/heartbound/screenshot3.png" alt="HeartBound Cupid Screenshot" />
     </div>
     `, "#fa707c"),
 
     new ProjectData("project-4", "House of Pest", "img/projects/project-4-icon.png", `
     <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
+    <strong>House of Pest</strong> is a game about the player killing the pests with a slipper in a bathroom developed in <strong>Stencyl</strong>.
+.
     <!-- <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>. -->
     </div>
     <div class="paragraph center">
@@ -131,22 +131,17 @@ console.log(add(5, 3));
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>2 Player Skills</li>
+        <li>Boss patterned bullet shooting</li>
         </ul>
     </div>
 
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        </div>
-    </div>
-
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/houseofpest/screenshot1.png" alt="House of Pest Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/houseofpest/screenshot2.png" alt="House of Pest Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/houseofpest/screenshot3.png" alt="House of Pest Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/houseofpest/screenshot4.png" alt="House of Pest Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/houseofpest/screenshot5.png" alt="House of Pest Screenshot" />
     </div>
     `, "#a1725a"),
 
@@ -159,18 +154,25 @@ console.log(add(5, 3));
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Player Skill</li>
         </ul>
     </div>
 
+        <div class="paragraph">
+        <ul>
+        I have implemented skills for the players, when the player successfully defends the ball 5 times will unlock the skill. When the skill is available, their respective bunny will glow. The player can shoot the opponent to stun them for 2 seconds to stop them from defending the ball. 
+        </ul>
+    </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/pong/screenshot2.png" alt="Pong Game Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/pong/screenshot3.png" alt="Pong Game Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/pong/screenshot4.png" alt="Pong Game Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/pong/screenshot5.png" alt="Pong Game Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/pong/screenshot6.png" alt="Pong Game Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/pong/screenshot7.png" alt="Pong Game Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/pong/screenshot1.png" alt="Pong Game Screenshot" />
+        <img class="pc-screenshot" src="img/screenshots/pong/screenshot8.png" alt="Pong Game Screenshot" />
     </div>`, "#7bc3ed"),
 
     

@@ -66,6 +66,11 @@ export default Vue.extend({
   bottom: 0px;
 }
 
+.code-container pre {
+    font-size: 12px; /* Adjust the size as needed */
+}
+
+
 .dialog {
   position:absolute;
   top: 0px;
