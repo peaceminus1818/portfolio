@@ -8,8 +8,8 @@
         I'm excited to showcase some of the projects I've been working on.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">games</router-link> using <strong>Unity</strong>
-      , <router-link to="/other-projects">games</router-link> using <strong>Stencyl</strong>.
+      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">games</router-link> using <strong>Unity</strong> and <strong>Stencyl</strong>.
+      <!--<router-link to="/other-projects">games</router-link> using .-->
       </div>
 
       <div style="margin-top: 30px;">You can reach me at <a href="mailto:chloeooi1989@gmail.com">chloeooi1989@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>

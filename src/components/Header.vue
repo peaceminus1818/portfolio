@@ -2,9 +2,9 @@
   <div class="header">
     <div class="nav-bar">
       <router-link to="/">About me</router-link>
-      <router-link to="/game-projects">Unity Projects</router-link>
-      <router-link to="/other-projects">Stencyl Projects</router-link>
-      <router-link to="/resume">Resume</router-link>
+      <router-link to="/game-projects">Game Projects</router-link>
+      <!--<router-link to="/other-projects">Stencyl Projects</router-link>-->
+      <!-- <router-link to="/resume">Resume</router-link> -->
       <router-link to="/contact">Contact</router-link>
     </div>
   </div>
